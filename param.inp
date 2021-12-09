@@ -1,0 +1,11 @@
+&MODEL_CONF
+trunc  =126,
+kMax   =42,
+latc   =-10.7,
+lonc   =291,
+deltat = 450.0,
+jact   =1,   ! power-law CCN spectra[=1]; lognormal aerosol size dist. for spectra[=2]; dynamic aerosol conc.[=3]
+jnum   =0,   ! predcit droplet conc.[=0]; assume constant droplet conc.[=1]
+jnuc   =0,   ! from Rasmussen et al. (2002) formula[=0]; dynamic aerosols (Liu and Penner, 2005) scheme[=2]
+jqsmall=1.E-14 ! default[=1.E-14]; experiment with [=1.E-18]
+/

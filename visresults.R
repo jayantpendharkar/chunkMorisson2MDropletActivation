@@ -2,8 +2,6 @@ rm(list=ls())
 #
 library(reticulate)     # for reshaping
 #
-setwd('~/Work/bam_boxmodel_source/model/source_actccnwkg/lncc_source_fcst_errOct21/codes_new/chunkMorisson2MDropletActivation/')
-#
 # io data info
 # [, 1: 4]  k,pc(k,nt),tc(k,nt),wc(k,nt), &
 # [, 5: 6]  qv(i,k),cldn(k,nt),  &  
